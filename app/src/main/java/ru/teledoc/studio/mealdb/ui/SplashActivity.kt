@@ -1,4 +1,4 @@
-package ru.teledoc.studio.mealdb
+package ru.teledoc.studio.mealdb.ui
 
 import android.os.Bundle
 import android.os.Handler
@@ -15,8 +15,8 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun startMainActivity() {
-        MainActivity.create(this).let {
-            this.startActivity(it)
+        MainActivity.create(this).let { intent ->
+            this.startActivity(intent)
             finish()
         }
     }

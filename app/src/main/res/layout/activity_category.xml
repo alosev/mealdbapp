@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.CategoryActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/category_list"
+        android:id="@+id/meal_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_category" />
+        tools:listitem="@layout/item_meat" />
 
 </FrameLayout>
